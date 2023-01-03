@@ -123,7 +123,6 @@ html {
 // Footer
 footer {
     color: $very-dark-blue;
-    display: inline-block;
     margin-top: 10px;
     text-align: center;
     
@@ -146,11 +145,12 @@ footer {
 } // End Footer
 
 // Media query
-@media(min-width: 600px) {
+@media(min-width: 768px) {
     // Article
     .article {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        height: 450px;
         width: 600px;
 
         .article-image img {

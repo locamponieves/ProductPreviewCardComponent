@@ -95,7 +95,6 @@ html {
 
 footer {
   color: hsl(212deg, 21%, 14%);
-  display: inline-block;
   margin-top: 10px;
   text-align: center;
 }
@@ -113,10 +112,11 @@ footer a:active {
   color: hsl(158deg, 36%, 37%);
 }
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   .article {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    height: 450px;
     width: 600px;
   }
   .article .article-image img {

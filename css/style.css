@@ -17,8 +17,9 @@ html {
   align-items: center;
   display: flex;
   flex-direction: column;
+  height: 100vh;
   justify-content: center;
-  margin-top: 30px;
+  margin: 20px;
 }
 
 .article {
@@ -110,10 +111,6 @@ html {
 }
 
 @media (min-width: 600px) {
-  .container {
-    height: 100vh;
-    margin-top: 0;
-  }
   .article {
     display: grid;
     grid-template-columns: 1fr 1fr;

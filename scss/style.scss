@@ -36,6 +36,7 @@ html {
     flex-direction: column;
     height: 100vh;
     justify-content: center;
+    margin: 20px;
 } // End Container
 
 // Article
@@ -43,7 +44,6 @@ html {
     background: $white;
     border-radius: 10px;
     width: 92%;
-
     .article-image img {
         border-radius: 10px 10px 0 0;
         width: 100%;

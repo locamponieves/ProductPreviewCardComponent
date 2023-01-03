@@ -112,15 +112,15 @@ footer a:active {
   color: hsl(158deg, 36%, 37%);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 600px) {
   .container {
     height: 100vh;
-    margin-top: 0;
   }
   .article {
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 450px;
+    margin-top: 0;
     width: 600px;
   }
   .article .article-image img {

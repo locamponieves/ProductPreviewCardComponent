@@ -34,7 +34,6 @@ html {
     align-items: center;
     display: flex;
     flex-direction: column;
-    
     justify-content: center;
 } // End Container
 
@@ -147,10 +146,9 @@ footer {
 } // End Footer
 
 // Media query
-@media(min-width: 768px) {
+@media(min-width: 600px) {
     .container {
         height: 100vh;
-        margin-top: 0;
     }
 
     // Article
@@ -158,6 +156,7 @@ footer {
         display: grid;
         grid-template-columns: 1fr 1fr;
         height: 450px;
+        margin-top: 0;
         width: 600px;
 
         .article-image img {

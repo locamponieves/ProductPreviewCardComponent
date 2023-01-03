@@ -121,14 +121,10 @@ html {
 } // End Article
 
 // Footer
-.footer {
-    bottom: 0;
+footer {
     color: $very-dark-blue;
-    height: 40px;
-    position: relative;
-    text-align: center;
-    width: 100%;
-
+    margin-top: 10px;
+    
     a {
         color: $cyan;
         text-decoration: none;
@@ -166,8 +162,7 @@ html {
         }
     } // End Article
 
-    .footer {
+    footer {
         height: 30px;
-        top: 30px;
     }
 } // End Media query

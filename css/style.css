@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  background: hsl(30deg, 38%, 92%);
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+}
+
+.article {
+  background: hsl(0deg, 0%, 100%);
+  border-radius: 10px;
+  width: 92%;
+}
+.article .article-image img {
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+}
+.article .article-text {
+  padding: 20px;
+}
+.article .article-text h3 {
+  color: hsl(228deg, 12%, 48%);
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+.article .article-text h1 {
+  color: hsl(212deg, 21%, 14%);
+  font-family: "Fraunces", serif;
+  font-size: 2.3rem;
+  line-height: 1;
+  padding: 15px 0;
+}
+.article .article-text p {
+  color: hsl(228deg, 12%, 48%);
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+.article .article-text h4 {
+  color: hsl(158deg, 36%, 37%);
+  font-family: "Fraunces", serif;
+  font-size: 2.5rem;
+  padding: 20px 0 20px 0;
+}
+.article .article-text h4 span {
+  color: hsl(228deg, 12%, 48%);
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  margin-top: 15px;
+  margin-left: 20px;
+  position: absolute;
+  text-decoration: line-through;
+}
+.article .article-text .btn {
+  background: hsl(158deg, 36%, 37%);
+  border: none;
+  border-radius: 10px;
+  color: hsl(0deg, 0%, 100%);
+  display: flex;
+  font-weight: 700;
+  font-size: 1.1rem;
+  justify-content: center;
+  margin-bottom: 5px;
+  padding: 15px;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+.article .article-text .btn:hover {
+  background: #1A4031;
+  cursor: pointer;
+}
+.article .article-text .btn-image {
+  margin-right: 10px;
+  width: auto;
+}
+
+@media (min-width: 768px) {
+  .article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 450px;
+    width: 600px;
+  }
+  .article .article-image img {
+    border-radius: 10px 0 0 10px;
+  }
+  .article .article-text {
+    padding: 27px;
+  }
+  .article .article-text h1 {
+    font-size: 2.4rem;
+  }
+  .article .article-text p {
+    letter-spacing: 0px;
+    margin: 10px 0 10px 0;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

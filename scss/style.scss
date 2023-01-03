@@ -34,7 +34,7 @@ html {
     align-items: center;
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    
     justify-content: center;
 } // End Container
 
@@ -42,7 +42,9 @@ html {
 .article {
     background: $white;
     border-radius: 10px;
+    margin-top: 30px;
     width: 92%;
+
     .article-image img {
         border-radius: 10px 10px 0 0;
         width: 100%;
@@ -146,6 +148,11 @@ footer {
 
 // Media query
 @media(min-width: 768px) {
+    .container {
+        height: 100vh;
+        margin-top: 0;
+    }
+
     // Article
     .article {
         display: grid;

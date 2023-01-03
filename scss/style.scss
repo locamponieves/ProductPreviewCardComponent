@@ -123,7 +123,9 @@ html {
 // Footer
 footer {
     color: $very-dark-blue;
+    display: inline-block;
     margin-top: 10px;
+    text-align: center;
     
     a {
         color: $cyan;
@@ -131,6 +133,14 @@ footer {
         
         &:hover {
             text-decoration: underline;
+        }
+
+        &:visited {
+            color: $cyan;
+        }
+
+        &:active {
+            color: $cyan;
         }
     }
 } // End Footer

@@ -95,7 +95,9 @@ html {
 
 footer {
   color: hsl(212deg, 21%, 14%);
+  display: inline-block;
   margin-top: 10px;
+  text-align: center;
 }
 footer a {
   color: hsl(158deg, 36%, 37%);
@@ -103,6 +105,12 @@ footer a {
 }
 footer a:hover {
   text-decoration: underline;
+}
+footer a:visited {
+  color: hsl(158deg, 36%, 37%);
+}
+footer a:active {
+  color: hsl(158deg, 36%, 37%);
 }
 
 @media (min-width: 600px) {

@@ -36,7 +36,6 @@ html {
     flex-direction: column;
     height: 100vh;
     justify-content: center;
-    margin: 20px;
 } // End Container
 
 // Article
@@ -126,7 +125,7 @@ html {
     bottom: 0;
     color: $very-dark-blue;
     height: 40px;
-    position: absolute;
+    position: relative;
     text-align: center;
     width: 100%;
 
@@ -169,5 +168,6 @@ html {
 
     .footer {
         height: 30px;
+        top: 30px;
     }
 } // End Media query
